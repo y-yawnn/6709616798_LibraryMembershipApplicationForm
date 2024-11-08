@@ -43,6 +43,13 @@ header {
     font-family: "DM Sans", sans-serif;
 }
 
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px; 
+    padding-right: 40px;
+}
+
 .image-container {
     width: 100%;
     display: grid;
@@ -55,6 +62,18 @@ header {
 .image-container img {
     max-width: 100%;
     margin-top: 40px;
+}
+
+.image-container h1 {
+    font-size: 56px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+  
+  .image-container h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    margin-left: 10px;
 }
 
 .form-container {
