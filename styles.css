@@ -11,3 +11,18 @@ body {
     background-color: var(--color-background);
     color: var(--color-text);
 }
+
+header {
+    background-color: var(--color-dark);
+    color: var(--color-secondary);
+    padding: 15px 0;
+    text-align: center;
+}
+
+footer {
+    background-color: var(--color-dark);
+    color: var(--color-secondary);
+    padding: 10px 0;
+    text-align: center;
+}
+  
