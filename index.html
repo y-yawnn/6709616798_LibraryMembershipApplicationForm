@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+          <h1>My Library</h1>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="form-container">
+            <h2>Register</h2>
+            <p>Create your account</p>
+            <form action="/action_page.php" method="post">
+              <label for="email">Email*</label><br>
+              <input type="email" id="email" placeholder="Enter your email" required><br><br>
+      
+              <label for="password">Password*</label><br>
+              <input type="password" id="password" placeholder="Create a password" required minlength="8"><br><br>
+      
+              <label for="name">Name*</label><br>
+              <input type="text" id="nameT" placeholder="Enter your name in thai" required><br><br>
+              <label for="name">Name*</label><br>
+              <input type="text" id="nameE" placeholder="Enter your name in english" required><br><br>
+
+              <label for="gender">Gender</label><br>
+              <select id="gender">
+                <option value="">Select your gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+              </select><br><br>
+      
+              <label for="birthdate">Date of Birth</label><br>
+              <input type="date" id="birthdate"><br><br>
+      
+              <label for="student-id">Student ID*</label><br>
+              <input type="tel" id="student-id" placeholder="Enter your student ID" maxlength="10" pattern="[0-9]{10}" required><br><br>
+      
+              <label for="faculty">Faculty</label><br>
+              <input type="text" id="faculty" placeholder="Enter your faculty"><br><br>
+      
+              <label for="types-books">Types of Books</label><br>
+              <input type="text" id="types-books" placeholder="Enter types you're interested in" required><br><br>
+      
+              <button type="submit" class="get-started">Get started</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
