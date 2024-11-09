@@ -59,6 +59,7 @@ header {
     justify-content: center;
     margin: auto;
     padding: 15%;
+    margin-inline: 10px;
 }
   
 .image-container img {
@@ -78,11 +79,28 @@ header {
     margin-left: 10px;
 }
 
+@media screen and (max-width: 600px) {
+    .container {
+        grid-template-columns: max-content;
+        margin: auto;
+        padding: 10px;
+    }
+
+    .form-container {
+        width: 50%;
+        align-content: center;
+    }
+
+    .image-container {
+        padding-bottom: 0%;
+    }
+}
+
 .form-container {
     width: 100%;
     background-color: var(--color-secondary);
     padding: 40px;
-    max-width: 800px;
+    max-width: 500px;
     margin: 40px auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
