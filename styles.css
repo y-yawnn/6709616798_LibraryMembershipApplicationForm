@@ -28,6 +28,8 @@ header {
     color: var(--color-secondary);
     padding: 15px 0;
     text-align: center;
+    width: 100%;
+    margin: 0;
 }
 
 .header-container {
@@ -81,18 +83,21 @@ header {
 
 @media screen and (max-width: 600px) {
     .container {
-        grid-template-columns: max-content;
+        grid-template-columns: auto;
         margin: auto;
-        padding: 10px;
+        padding: 0;
+        max-width: 90%;
     }
 
     .form-container {
-        width: 50%;
+        width: 90%;
         align-content: center;
+        padding: 20px;
     }
 
     .image-container {
         padding-bottom: 0%;
+        width: 90%;
     }
 }
 
@@ -100,7 +105,7 @@ header {
     width: 100%;
     background-color: var(--color-secondary);
     padding: 40px;
-    max-width: 500px;
+    max-width: 600px;
     margin: 40px auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
@@ -181,4 +186,6 @@ footer {
     color: var(--color-secondary);
     padding: 15px 0;
     text-align: center;
+    width: 100%;
+    margin: 0;
 }
