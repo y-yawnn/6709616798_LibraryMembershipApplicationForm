@@ -28,7 +28,7 @@ body {
 header {
     background-color: var(--color-dark);
     color: var(--color-secondary);
-    padding: 15px 0;
+    padding: 16px 0;
     text-align: center;
     width: 100%;
     margin: 0;
@@ -63,7 +63,7 @@ header {
     justify-content: center;
     margin: auto;
     padding: 15%;
-    margin-inline: 10px;
+    margin-inline: 12px;
 }
   
 .image-container img {
@@ -73,8 +73,8 @@ header {
 
 .image-container h1 {
     font-size: 56px;
-    margin-bottom: 5px;
-    margin-left: 10px;
+    margin-bottom: 8px;
+    margin-left: 12px;
 }
   
 .image-container h2 {
@@ -117,14 +117,14 @@ header {
     font-size: 24px;
     color: var(--color-dark);
     font-family: "DM Sans", sans-serif;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
 }
 
 .form-container h3 {
     font-size: 16px;
     color: var(--color-primary);
     font-family: "DM Sans", sans-serif;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
 }
 
 .form-container hr {
@@ -146,13 +146,13 @@ header {
 .form-input label {
     font-size: 14px;
     color: var(--color-dark);
-    margin-bottom: 5px;
+    margin-bottom: 8px;
     display: block;
 }
   
 .form-input input, .form-input select {
     width: 100%;
-    padding: 10px;
+    padding: 12px;
     margin-bottom: 16px;
     border: 1px solid var(--color-shadow);
     border-radius: 4px;
@@ -162,7 +162,7 @@ header {
 .form-checkbox {
     font-size: 14px;
     color: var(--color-dark);
-    margin: 5px 0;
+    margin: 8px 0;
     display: flex;
     align-items: flex-start;   
 }
@@ -186,7 +186,7 @@ header {
     border: none;
     border-radius: 4px;
     font-size: 16px;
-    margin: 10px 0;
+    margin: 12px 0;
     cursor: pointer;
 }
 
@@ -204,7 +204,7 @@ header {
 footer {
     background-color: var(--color-dark);
     color: var(--color-secondary);
-    padding: 15px 0;
+    padding: 16px 0;
     text-align: center;
     width: 100%;
     margin: 0;
