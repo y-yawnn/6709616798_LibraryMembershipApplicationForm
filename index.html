@@ -22,19 +22,22 @@
 
         <div class="form-container">
             <h2>Register</h2>
-            <p>Create your account</p>
+            <p>Please input information to create your account.</p>
             <form action="/action_page.php" method="post">
                 <div class="form-input">
-                    <label for="email">Email*</label>
+                    <hr>
+                    <label for="email">Email<span class="required">*</span></label>
                     <input type="email" id="email" placeholder="Enter your email" required>
                     
-                    <label for="password">Password*</label>
+                    <label for="password">Password<span class="required">*</span></label>
                     <input type="password" id="password" placeholder="Create a password" required minlength="8">
                     <span class="help-block">Must be at least 8 characters.</span>
-        
-                    <label for="name">Name*</label>
+                    
+                    <hr><h3>Personal information</h3>
+                    
+                    <label for="name">Name (ภาษาไทย)<span class="required">*</span></label>
                     <input type="text" id="nameT" placeholder="Enter your name in thai" required>
-                    <label for="name">Name*</label>
+                    <label for="name">Name (English)<span class="required">*</span></label>
                     <input type="text" id="nameE" placeholder="Enter your name in english" required>
 
                     <label for="gender">Gender</label>
@@ -48,7 +51,7 @@
                     <label for="birthdate">Date of Birth</label>
                     <input type="date" id="birthdate">
         
-                    <label for="student-id">Student ID*</label>
+                    <label for="student-id">Student ID<span class="required">*</span></label>
                     <input type="tel" id="student-id" placeholder="Enter your student ID" maxlength="10" pattern="[0-9]{10}" required>
         
                     <label for="faculty">Faculty</label>
@@ -59,9 +62,9 @@
                 </div>
                 <div class="form-checkbox">
                     <input type="checkbox" id="news" name="news">
-                    <label for="news">Yes! Send me news and offers about products, events, and more.</label>
+                    <label for="news">Send me news and offers about products, events, and more.</label>
                 </div>        
-                <button type="submit" class="get-started">Get started</button>
+                <button type="submit" class="get-started">Register</button>
                 <p class="login-link">Already have an account? <a href="">Log in</a></p>
             </form>
         </div>
